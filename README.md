@@ -12,3 +12,9 @@ A simple mod to easily recreate [MC-74984](https://bugs.mojang.com/browse/MC-749
 3) Click "Join Servers"
 
 **Note: The first address is connected to first, followed by the second.**
+
+## Configuration
+The mod does have a config file that lets you add a delay between the connections, but it's not working correctly.  
+
+If you can't get the mod working with the delay disabled, navigate to `config/DuoConnect.cfg` and set `waitBetweenConnections` to `true`, 
+and optionally configure `waitTimeMs` to any number between `1 - 3000`.
